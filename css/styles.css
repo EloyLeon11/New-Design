@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  font-family: "Avenir", sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+}
+.container__text {
+  text-align: justify;
+  margin: 70px;
+  font-size: 25px;
+}
+.container__text h1,
+.container__text h2 {
+  font-weight: 800px;
+  font-size: 72px;
+  text-align: left;
+  line-height: 8px;
+}
+.container__text button {
+  height: 66px;
+  margin: 5px;
+  width: 182px;
+  border-radius: 36px;
+  background-color: #252525;
+  color: white;
+  font-size: 20px;
+}
+.container__img {
+  position: relative;
+  margin-left: 105px;
+}
+.container__img .img__back {
+  position: absolute;
+}
+.container__img .img__front {
+  position: absolute;
+  left: 230px;
+  bottom: 5px;
+  z-index: 1;
+}
+
+.section {
+  background-color: black;
+  display: flex;
+  width: 85%;
+  padding: 20px;
+  margin: 30px auto;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  font-size: 20px;
+  color: white;
+}
+.section svg {
+  width: 8%;
+  height: 11%;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

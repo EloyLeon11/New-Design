@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    margin: auto;
+
+    &__text {
+        text-align: justify;
+        margin: 70px;
+        font-size: 25px;
+
+        h1,
+        h2 {
+            font-weight:  800px;
+            font-size: 72px;
+            text-align: left;
+            line-height: 8px;
+        }
+
+        button {
+            
+            height: 66px;
+            margin: 5px;
+            width: 182px;
+            border-radius: 36px;
+            background-color: #252525;
+            color: white;
+            font-size: 20px;
+          
+        }
+    }
+
+    &__img {
+        position: relative;
+        margin-left: 105px;
+
+        .img__back {       
+            position: absolute;
+            
+        }
+
+        .img__front {
+            position: absolute;
+            left: 230px;
+            bottom: 5px;
+            z-index: 1;
+        }
+    }
+}
